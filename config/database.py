@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://admin:1q2w3e4r@cluster0.8ulfocx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+#put your own URI for mongodb <username>:<password> have to be changed
+client = MongoClient()
 
 db = client.todo_db
 
